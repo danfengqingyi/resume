@@ -1,0 +1,56 @@
+/* pages/resumeDetails/resumeTwo.wxss */
+.container{
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-item{
+  display: flex;
+  border-radius: 7px;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 85%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5%;
+}
+.item-projectName{
+  margin-top: 5%;
+  color: #a1a1a1;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.item-projectTime{
+  margin-top: 5%;
+  color: #a1a1a1;
+
+}
+.item-projectDes{
+  margin-top: 5%;
+  color: #a1a1a1;
+
+}
+.item-projectRole{
+  margin-top: 5%;
+  color: #a1a1a1;
+
+}
+.item-projectResp{
+  margin-top: 5%;
+  color: #a1a1a1;
+
+}
+.item-projectSkill{
+  margin-top: 5%;
+  color: #a1a1a1;
+
+}
+.place{
+  height: 48px;
+  margin-top: 20px;
+}

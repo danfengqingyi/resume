@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+.container{
+  background-color: #44A3BB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo{
+  width: 30%;
+  margin-top: 10%;
+}
+.welcome{
+  margin-top: 6%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.entrance{
+  margin-top: 20%;
+  border:1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 10%;
+}
+.contact image{
+  width: 10%;
+  cursor: pointer;
+}
+.contact :nth-child(2){
+  margin-left: 10%;
+}

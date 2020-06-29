@@ -1,0 +1,43 @@
+<!--pages/resumeDetails/resumeOne.wxml-->
+
+<scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px;background-color: #f3f3f3;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+	<view class="container">
+		<view class="info">
+			<image src="../../img/head-portrait.jpeg" mode="widthFix" class="photo"></image>
+			<view class="info-right">
+				<text class="info-sex"><text class="info-name">{{name}}</text>{{sex}}</text>
+				<text class="info-position">期望职位: {{position}}</text>
+				<text class="info-position">电话: {{telephone}}</text>
+				<text class="info-position">邮箱: {{mail}}</text>
+			</view>
+		</view>
+
+		<view class="work">
+			<view class="work-item" wx:for="{{workinfos}}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+				<text class="item-company">{{item.company}}</text>
+				<text class="item-time">{{item.time}}</text>
+				<text class="item-curposition">{{item.curposition}}</text>
+				<text class="item-responsibility">{{item.responsibility}}</text>
+			</view>
+		</view>
+		<view class="education">
+			<view class="work-item" wx:for="{{educations}}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+				<text class="item-school">{{item.school}}</text>
+				<text class="item-degree">{{item.degree}}</text>
+				<text class="item-time">{{item.time}}</text>
+				<text class="item-major">{{item.major}}</text>
+
+			</view>
+		</view>
+		<view class="certificate">
+	<view class="certificate-item" wx:for="{{certificates}}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+				<text class="item-name">{{item.name}}</text>
+				<text class="item-time">{{item.time}}</text>
+			</view>
+		</view>
+		<view class="evaluate">
+		<text class="info-position">{{evaluate}}</text>
+		</view>
+		<view class="place"></view>
+	</view>
+</scroll-view>

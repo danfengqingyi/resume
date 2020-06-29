@@ -1,0 +1,138 @@
+/* pages/resumeDetails/resumeOne.wxss */
+.container{
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info{
+  display: flex;
+  border-radius: 7px;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 91%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 2%;
+}
+.photo{
+  width: 20%;
+}
+.info-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.info-sex{
+  font-size: 15px;
+}
+.info-name{
+  font-size: 20px;
+}
+.info-position{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 85%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5%;
+
+}
+.work-item{
+  display: flex;
+  flex-direction: column;
+
+}
+.item-company{
+  margin-top: 5%;
+  color: #a1a1a1;
+  font-size: 16px;
+  font-weight: 600;
+}
+.item-time{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.item-curposition{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.item-responsibility{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 85%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5%;
+
+}
+.item-school{
+  margin-top: 5%;
+  color: #a1a1a1;
+  font-size: 16px;
+  font-weight: 600;
+}
+.item-degree{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.item-time{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.item-major{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.certificate{
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 85%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5%;
+
+}
+.certificate-item{
+  display: flex;
+  justify-content:space-between;
+}
+.item-name{
+  margin-top: 5%;
+  color: #a1a1a1;
+}
+.evaluate{
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  width: 85%;
+  margin-top: 20px;
+  font-size: 13px;
+  padding: 5%;
+  
+}
+.place{
+  height: 48px;
+  margin-top: 20px;
+}

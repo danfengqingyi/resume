@@ -1,0 +1,11 @@
+<!--pages/resumeDetails/resumeOne.wxml-->
+
+<scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px;background-color: #f3f3f3;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+	<view class="container">
+		<view class="skill-item" wx:for="{{skills}}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+			<text class="item-skillName">{{item.skillName}}</text>
+			<text class="item-skillDetail">{{item.skillDetail}}</text>
+		</view>
+		<view class="place"></view>
+	</view>
+</scroll-view>

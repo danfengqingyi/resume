@@ -1,0 +1,10 @@
+<view class="container" style="width:{{width}}px;height:{{height}}px">
+	<image src="../../img/head-portrait.jpeg" mode="widthFix" class="photo"></image>
+	<text class="welcome">Welcome to my resume</text>
+	<text class="entrance" bindtap="dispath">Look at my resume</text>
+	<view class="contact">
+		<image bindtap="callPhone" src="../../img/phone.png" mode="widthFix"></image>
+		<image bindtap="copyWe" data-text="{{weixin}}" src="../../img/weChat.png" mode="widthFix"></image>
+	
+	</view>
+</view>

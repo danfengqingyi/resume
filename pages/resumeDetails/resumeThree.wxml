@@ -1,0 +1,15 @@
+<!--pages/resumeDetails/resumeOne.wxml-->
+
+<scroll-view scroll-y="true" style="width:{{width}}px;height:{{height}}px;background-color: #f3f3f3;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+	<view class="container">
+		<view class="project-item" wx:for="{{projects}}" wx:key="id" wx:for-index="idx" wx:for-item="item">
+			<text class="item-projectName">{{item.projectName}}</text>
+			<text class="item-projectTime">{{item.projectTime}}</text>
+			<text class="item-projectDes">项目描述: {{item.projectDes}}</text>
+			<text class="item-projectRole">项目角色: {{item.projectRole}}</text>
+			<text class="item-projectResp">项目职责: {{item.projectResp}}</text>
+			<text class="item-projectSkill">项目技能: {{item.projectSkill}}</text>
+		</view>
+		<view class="place"></view>
+	</view>
+</scroll-view>
