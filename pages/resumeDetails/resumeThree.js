@@ -5,7 +5,7 @@ Component({
       projectName:'杨森-前腺关爱家园',
       projectTime:'2020.04 至 2020.06',
       projectDes:'给前列腺患者做一个PEP平台，进行病程管理和当前病情报告分析、及病情相关科普知识推荐阅读、病人的一个跟随治疗提醒',
-      projectRole:'Web前端leader',
+      projectRole:'Web前端Leader',
       projectResp:'1、 参与业务讨论设计 2、参与UX设计方案讨论 3、参与UI设计方案讨论 4、根据UI图评估前端开发工作量人天 5、按照项目计划制定前端开发计划 6、管理前端开发进度 7、技术指导及组织难点攻克',
       projectSkill:'项目管理、HTML/CSS'
 
@@ -39,8 +39,8 @@ Component({
     {
       projectName:'五粮液战区补商计划平台',
       projectTime:'2019.01 至 2019.04',
-      projectDes:'全栈开发',
-      projectRole:'前端leader',
+      projectDes:'收录信息及审批信息平台，短时间内解决客户无法及时收集到各个战区补商信息情况的痛点，促使客户能顺利进行战区的补商计划',
+      projectRole:'全栈开发',
       projectResp:'1、 一个人完成一个小系统 2、 从前端vue到后端springboot、再到数据库mysql，独立开发独立联调测试 3、 总共5个前端页面、12后端接口、2张表;一共经历10天左右前后完成sit和生产上线',
       projectSkill:'Vue、Element-UI、Java、Springboot、Mysql、Navicat for MySQL'
     },
@@ -48,7 +48,7 @@ Component({
       projectName:'伊利大数据平台',
       projectTime:'2018.08 至 2018.12',
       projectDes:'实现伊利的数据可视化平台，包括不限于成本、费用、会员相关的数据进行建模统计输出到前端可视化展示报表',
-      projectRole:'web前端开发',
+      projectRole:'Web前端开发',
       projectResp:'1、 使用vue/v-charts开发各种数据报表 2、 把SQL语句放入到NodeJS后端框架程序中，然后联调接口调试报表',
       projectSkill:'vue、v-charts'
 
@@ -57,7 +57,7 @@ Component({
       projectName:'上海通用汽车一站式服务平台',
       projectTime:'2017.12 至 2018.08',
       projectDes:'打通主机⼚、经销商、终端⽤户的活动发布、选⻋购⻋流程，并对接在线⽀付、保险购买等功能',
-      projectRole:'web前端开发/Java后端开发',
+      projectRole:'Web前端开发/Java后端开发',
       projectResp:'1、 前期从事Angular前端开发任务 2、 中期由于后端任务重及人员调整，从事Java后端开发任务3、 中后期任务完成进度正常及人员充沛，兼职协助Leader管理团队',
       projectSkill:'Angular、Java、Springboot、项目管理、Leader助理'
 
