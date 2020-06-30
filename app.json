@@ -13,22 +13,13 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/resumeDetails/resumeOne",
-        "iconPath": "img/icon_component.png",
-        "selectedIconPath": "img/icon_component_HL.png",
-        "text": "基本信息"
+        "pagePath": "pages/resumeDetails/resumeOne"
       },
       {
-        "pagePath": "pages/resumeDetails/resumeTwo",
-        "iconPath": "img/icon_API.png",
-        "selectedIconPath": "img/icon_API_HL.png",
-        "text": "专业技能"
+        "pagePath": "pages/resumeDetails/resumeTwo"
       },
       {
-        "pagePath": "pages/resumeDetails/resumeThree",
-        "iconPath": "img/icon_API.png",
-        "selectedIconPath": "img/icon_API_HL.png",
-        "text": "专业技能"
+        "pagePath": "pages/resumeDetails/resumeThree"
       }
     ]
   },
@@ -36,7 +27,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#44A3BB",
     "navigationBarTitleText": "Lu Haoran's resume",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

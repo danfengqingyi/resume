@@ -7,22 +7,22 @@ Page({
   data: {
     selected: 0,
     color: "#7A7E83",
-    selectedColor: "#3cc51f",
+    selectedColor: "#1296db",
     list: [{
       pagePath: "/pages/resumeDetails/resumeOne",
-      iconPath: "/img/icon_component.png",
-      selectedIconPath: "/img/icon_component_HL.png",
+      iconPath: "/img/info.png",
+      selectedIconPath: "/img/info_selected.png",
       text: "基本信息"
     }, {
       pagePath: "/pages/resumeDetails/resumeTwo",
-      iconPath: "/img/icon_API.png",
-      selectedIconPath: "/img/icon_API_HL.png",
+      iconPath: "/img/skill.png",
+      selectedIconPath: "/img/skill_selected.png",
       text: "专业技能"
     },{
       pagePath: "/pages/resumeDetails/resumeThree",
-      iconPath: "/img/icon_API.png",
-      selectedIconPath: "/img/icon_API_HL.png",
-      text: "项目经验"
+      iconPath: "/img/project.png",
+      selectedIconPath: "/img/project_selected.png",
+      text: "项目经历"
     }]
   
 

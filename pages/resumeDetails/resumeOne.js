@@ -4,8 +4,8 @@ Component({
     name: '卢浩然',
     sex: '男',
     position: '前端工程师',
-    telephone: '13480873217',
-    mail: '317424034@qq.com',
+    telephone: '13545357660',
+    mail: 'haoran6lu@163.com',
     width: 0,
     height: 0,
     workinfos: [{
@@ -53,7 +53,7 @@ Component({
 
       }
     ],
-    evaluate: '持有PMP项目管理资格认证证书，并具有实际的项目管理经验。良好的协调沟通能力，适应性强，抗压力强.具有丰富的web、app项目开发经验，所涉及的技术领域包括不限于前端vue、Angular、HTML、CSS、后端Springboot、python端Django、手机端Android、数据库(mysql、oracle) 使用、Linux系统(Ubuntu18.04) 操作、Devops实战。对产品创新以及web、app的体验有一定的认识，思维活跃，奇思妙想。'
+    evaluate: '持有PMP项目管理资格认证证书，并具有实际的项目管理经验。良好的协调沟通能力，适应性强，抗压力强。具有丰富的web、app项目开发经验，所涉及的技术领域包括不限于前端vue、Angular、HTML、CSS、后端Springboot、python端Django、手机端Android、数据库(mysql、oracle) 使用、Linux系统(Ubuntu18.04) 操作、Devops实战。对产品创新以及web、app的体验有一定的认识，思维活跃，奇思妙想。'
   },
   methods: {
     upper(e) {

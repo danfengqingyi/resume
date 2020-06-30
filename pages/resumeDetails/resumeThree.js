@@ -24,7 +24,7 @@ Component({
       projectDes:'过程能力工厂APP是属于沈阳宝马Joychat APP内部一个子应用，该APP实现人工智能监控、实时大数据分析、不良趋势预警和质量报告自动化输出。',
       projectRole:'项目经理&Leader',
       projectResp:'1、 收集需求 (客户方立项完,需求还不明确,需要收集干系人的需求) 2、 需求讨论 3、方案讨论4、制定项目计划和详细的开发计划 5、深度利用敏捷开发流程执行项目，包括写项目计划引入敏捷场景元素的图片，整个项目的进度管理工具jira的使用、开发运维一体化的自动构建工具Jenkins与Gitlab代码管理工具形成持续集成开发测试环境 6、本地电脑搭建Redmine系统来进行bug追踪',
-      projectSkill:'项目管理、Vue、Springboot、技术Leader、jira、Jenkins、Gitlab、Redmine'
+      projectSkill:'项目管理、Vue、Vant、Springboot、技术Leader、jira、Jenkins、Gitlab、Redmine'
 
     },
     {

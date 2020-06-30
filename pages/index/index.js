@@ -34,7 +34,7 @@ Page({
    */
   callPhone(){
     wx.makePhoneCall({
-      phoneNumber: '13480873217'
+      phoneNumber: '13545357660'
     })
   },
   /**

@@ -3,7 +3,7 @@ Component({
   data:{
     skills:[{
       skillName:'Web前端开发',
-      skillDetail:'HTML5、CSS3、JS、Vue、Angular、JQuery、Element-UI'
+      skillDetail:'HTML5、CSS3、JS、Vue、Angular、JQuery、JQuery-WeUI、Element-UI、Vant Weapp、Vant'
 
     },{
       skillName:'移动端前端开发',
